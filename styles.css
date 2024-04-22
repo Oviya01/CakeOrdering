@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap');
+* {
+    font-family: 'Nunito',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color:hotpink;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+    .header .icons {
+        font-size: 2.5rem;
+        cursor: pointer;
+        color: white;
+    }
+
+        .header .icons:hover {
+            color: dimgray;
+        }
+
+    .header .navbar a {
+        color: floralwhite;
+        font-size: 2rem;
+        margin: 0 2rem;
+    }
+
+        .header .navbar a:hover {
+            text-decoration: underline;
+            text-underline-offset: 1rem;
+            color: dimgrey;
+        }
+    .header .icons2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+        .header .icons2 span {
+            font-size: 2rem;
+            font-weight: lighter;
+        }
+
+
+    .header .navbar .navbar-brand {
+        font-family: 'Sans Serif Collection';
+        font-weight: bolder;
+        font-size: 2.5rem;
+        text-shadow: 1px 0px 0px deeppink, -1px 0px 0px deeppink, 0px 1px 0px deeppink, 0px -1px 0px deeppink;
+        color: black;
+    }
+.footer {
+    background-color:white ;
+}
+
+  
